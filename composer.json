@@ -1,5 +1,5 @@
 {
-  "name": "unisharp/laravel-settings",
+  "name": "Lavriona/laravel-settings",
   "description": "Persistent settings manager for laravel, translations are supported.",
   "type": "library",
   "keywords": [
@@ -34,16 +34,16 @@
       "database"
     ],
     "psr-4": {
-      "Unisharp\\Setting\\": "src/Setting/"
+      "Lavriona\\Setting\\": "src/Setting/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Unisharp\\Setting\\SettingServiceProvider"
+        "Lavriona\\Setting\\SettingServiceProvider"
       ],
       "aliases": {
-        "Setting": "Unisharp\\Setting\\SettingFacade"
+        "Setting": "Lavriona\\Setting\\SettingFacade"
       }
     }
   }
